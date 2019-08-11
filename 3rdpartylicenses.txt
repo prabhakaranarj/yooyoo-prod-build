@@ -450,16 +450,13 @@ SEE LICENSE IN license
 @syncfusion/ej2-grids
 SEE LICENSE IN license
 
-@syncfusion/ej2-angular-grids
+@syncfusion/ej2-dropdowns
 SEE LICENSE IN license
 
-@syncfusion/ej2-charts
+@syncfusion/ej2-navigations
 SEE LICENSE IN license
 
-@syncfusion/ej2-svg-base
-SEE LICENSE IN license
-
-@syncfusion/ej2-pdf-export
+@syncfusion/ej2-excel-export
 SEE LICENSE IN license
 
 @syncfusion/ej2-file-utils
@@ -490,7 +487,16 @@ The Syncfusion license that contains the terms and conditions can be found at
 https://www.syncfusion.com/content/downloads/syncfusion_license.pdf
 
 
-@syncfusion/ej2-navigations
+@syncfusion/ej2-pdf-export
+SEE LICENSE IN license
+
+@syncfusion/ej2-angular-grids
+SEE LICENSE IN license
+
+@syncfusion/ej2-charts
+SEE LICENSE IN license
+
+@syncfusion/ej2-svg-base
 SEE LICENSE IN license
 
 @syncfusion/ej2-splitbuttons
@@ -504,16 +510,10 @@ MIT
 
 @angular/material/tabs
 
-@syncfusion/ej2-dropdowns
-SEE LICENSE IN license
-
 @syncfusion/ej2-angular-dropdowns
 SEE LICENSE IN license
 
 @syncfusion/ej2-angular-popups
-SEE LICENSE IN license
-
-@syncfusion/ej2-excel-export
 SEE LICENSE IN license
 
 @angular/material/core
