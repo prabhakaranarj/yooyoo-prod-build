@@ -504,13 +504,13 @@ MIT
 
 @angular/material/tabs
 
+@syncfusion/ej2-angular-popups
+SEE LICENSE IN license
+
 @syncfusion/ej2-dropdowns
 SEE LICENSE IN license
 
 @syncfusion/ej2-angular-dropdowns
-SEE LICENSE IN license
-
-@syncfusion/ej2-angular-popups
 SEE LICENSE IN license
 
 @syncfusion/ej2-excel-export
