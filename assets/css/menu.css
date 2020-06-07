@@ -17,7 +17,7 @@ File: Menu
 }
 
 .wrapper {
- padding-top: 114px;
+ padding-top: 70px;
 }
 
 .page-title-box {
@@ -38,7 +38,9 @@ File: Menu
  left: 0;
  top: 0;
  z-index: 990;
- background-color: transparent;
+ /* background-color: transparent; */
+ background-color: #CFCFCF;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
  border: 0;
  -webkit-transition: all 0.5s ease;
  transition: all 0.5s ease;
@@ -58,7 +60,7 @@ File: Menu
 }
 
 #topnav .topbar-main {
- background-color: #36404e;
+ background-color: #CFCFCF;
 }
 
 #topnav .topbar-main .logo {
@@ -129,7 +131,7 @@ File: Menu
 }
 
 #topnav .topbar-main .navbar-nav {
- margin: 0px;
+ margin: 5px 10px;
 }
 
 #topnav .app-search {
@@ -178,7 +180,7 @@ File: Menu
 }
 
 #topnav .navbar-custom {
- background-color: #f3f3f3;
+ background-color: #CFCFCF;
  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -197,7 +199,7 @@ File: Menu
 }
 
 #topnav .navbar-toggle:hover span {
- background-color: #ffffff;
+ background-color: #000;
 }
 
 #topnav .navbar-toggle:focus {
@@ -205,7 +207,7 @@ File: Menu
 }
 
 #topnav .navbar-toggle:focus span {
- background-color: #ffffff;
+ background-color: #000;
 }
 
 #topnav .navbar-toggle .lines {
@@ -221,7 +223,7 @@ File: Menu
 #topnav .navbar-toggle span {
  height: 2px;
  width: 100%;
- background-color: rgba(255, 255, 255, 0.8);
+ background-color: #000;
  display: block;
  margin-bottom: 5px;
  -webkit-transition: -webkit-transform 0.5s ease;
@@ -316,9 +318,9 @@ File: Menu
 */
 
 @media (min-width: 992px) {
+ 
  #topnav .navigation-menu>li>a {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 25px 20px;
  }
  #topnav .navigation-menu>li.last-elements .submenu {
   left: auto;
@@ -330,9 +332,9 @@ File: Menu
   margin-left: 0;
   margin-right: 10px;
  }
- #topnav .navigation-menu>li:first-of-type a {
+ /* #topnav .navigation-menu>li:first-of-type a {
   padding-left: 0px;
- }
+ } */
  #topnav .navigation-menu>li:hover a {
   color: #188ae2;
  }
@@ -424,7 +426,7 @@ File: Menu
 
 @media (max-width: 991px) {
  .wrapper {
-  padding-top: 160px;
+  padding-top: 70px;
  }
  .container {
   width: auto;
@@ -438,7 +440,7 @@ File: Menu
  }
  #topnav .navigation-menu>li>a {
   color: #313a46;
-  padding: 15px;
+  padding: 25px 20px;
  }
  #topnav .navigation-menu>li>a i {
   display: inline-block;
@@ -520,13 +522,16 @@ File: Menu
 
 @media (max-width: 1120px) {
  .wrapper {
-  padding-top: 160px;
+  padding-top: 70px;
  }
 }
 
 @media (max-width: 768px) {
  .wrapper {
-  padding-top: 60px;
+  padding-top: 70px;
+ }
+ #topnav .navigation-menu>li>a {
+  padding: 15px;
  }
 }
 
